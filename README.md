@@ -1,35 +1,39 @@
 # Portfolio Metrics Analyzer
 
-## Descripción
+## Descripción General
 
-**Portfolio Metrics Analyzer** es un script en Python diseñado para analizar portafolios de inversión compuestos por acciones, ETFs y criptomonedas. Utiliza datos históricos descargados desde Yahoo Finance para calcular métricas clave y generar visualizaciones que ayudan a evaluar el rendimiento y el riesgo del portafolio.
-
-## Características
-
-1. **Métricas Clave**:
-   - **Rendimiento Promedio Anualizado (%):** Media anual de los rendimientos diarios.
-   - **Volatilidad Anualizada (%):** Variabilidad anualizada de los rendimientos diarios.
-   - **Rendimiento Acumulado (%):** Crecimiento total del portafolio durante el período analizado.
-   - **Ratio Sharpe:** Medida del rendimiento ajustado al riesgo.
-   
-2. **Soporte para múltiples activos**:
-   - Acciones y ETFs (ejemplo: `AAPL`, `SPY`).
-   - Criptomonedas (ejemplo: `BTC-USD`, `ETH-USD`).
-   
-3. **Análisis multi-período**:
-   - Métricas calculadas para rangos de 1, 3, 5 y 10 años.
-
-4. **Visualización**:
-   - Genera un gráfico de la cotización histórica ponderada del portafolio para los últimos 10 años.
-
-5. **Resultados en HTML**:
-   - Presenta las métricas en formato tabla para facilitar su visualización y uso.
+Este proyecto es un script de Python diseñado para gestionar, analizar y visualizar un portafolio financiero. El usuario puede proporcionar una lista de activos (tickers) y asignarles pesos para calcular métricas clave de rendimiento, como el retorno anualizado, la volatilidad y el ratio Sharpe. Además, el script genera gráficos de las tendencias de precios históricos, permitiendo elegir entre varias escalas y rangos de tiempo.
 
 ---
 
-## Requisitos
+## Características
 
-1. **Python 3.7 o superior**
-2. Instalación de las librerías necesarias:
-   ```bash
-   pip install yfinance pandas numpy matplotlib
+1. **Cálculo de métricas del portafolio**:
+   - Retorno promedio anualizado.
+   - Volatilidad anualizada.
+   - Retorno acumulado.
+   - Ratio Sharpe.
+
+2. **Visualización gráfica**:
+   - Soporte para escalas lineales, logarítmicas y exponenciales.
+   - Elección de rangos de tiempo predefinidos (1, 3, 5 o 10 años).
+   - Superposición de datos individuales y del portafolio ponderado.
+
+3. **Interfaz interactiva**:
+   - Solicita al usuario información clave, como tickers, pesos, escala del eje Y y rango de tiempo.
+
+---
+
+## Requisitos del Sistema
+
+1. **Python**: Versión 3.7 o superior.
+2. **Bibliotecas necesarias**:
+   - `yfinance`
+   - `pandas`
+   - `numpy`
+   - `matplotlib`
+
+Instale las bibliotecas requeridas ejecutando:
+
+```bash
+pip install yfinance pandas numpy matplotlib
