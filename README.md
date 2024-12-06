@@ -1,8 +1,8 @@
-# Portfolio Metrics Analyzer Pro
+# Portfolio Metrics Analyzer
 
 ## Descripción
 
-**Portfolio Metrics Analyzer Pro** es un script en Python diseñado para analizar portafolios de inversión compuestos por acciones, ETFs y criptomonedas. Utiliza datos históricos descargados desde Yahoo Finance para calcular métricas clave y generar visualizaciones que ayudan a evaluar el rendimiento y el riesgo del portafolio.
+**Portfolio Metrics Analyzer** es un script en Python diseñado para analizar portafolios de inversión compuestos por acciones, ETFs y criptomonedas. Utiliza datos históricos descargados desde Yahoo Finance para calcular métricas clave y generar visualizaciones que ayudan a evaluar el rendimiento y el riesgo del portafolio.
 
 ## Características
 
